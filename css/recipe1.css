@@ -1,0 +1,41 @@
+body, html{
+    background-color: #91bb44;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+img{
+    border-radius: 50px;
+    height: 245px;
+    width: 425px;
+}
+
+h1{
+    align-self: flex-start;
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.description, .ingredients,
+.steps, .layering, .cook-time{
+    background-color: #8097DE;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 400px;
+    padding: 20px;
+}
